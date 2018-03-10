@@ -56,6 +56,12 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
+/**
+ * Generated class for the JobExperiencesPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
 var JobExperiencesPage = (function () {
     function JobExperiencesPage(navCtrl, navParams) {
         this.navCtrl = navCtrl;
@@ -68,10 +74,9 @@ var JobExperiencesPage = (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-job-experiences',template:/*ion-inline-start:"/Users/tomohirokogawa/Documents/git/rikoroku.github.io/github_io/src/pages/job-experiences/job-experiences.html"*/'<ion-header>\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>職務経歴</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"/Users/tomohirokogawa/Documents/git/rikoroku.github.io/github_io/src/pages/job-experiences/job-experiences.html"*/,
         }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]) === "function" && _b || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
     ], JobExperiencesPage);
     return JobExperiencesPage;
-    var _a, _b;
 }());
 
 //# sourceMappingURL=job-experiences.js.map
