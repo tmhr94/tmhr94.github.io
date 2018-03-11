@@ -21,7 +21,8 @@ export class MyApp {
       { title: 'Home', component: 'HomePage' },
       { title: '職務経歴', component: 'JobExperiencesPage' },
       { title: '技術経歴', component: 'TechnologySkillsPage' },
-      { title: '作品経歴', component: 'ProductsPage' }
+      { title: '作品経歴', component: 'ProductsPage' },
+      { title: 'お問い合わせ', component: 'ContactsPage' }
     ];
 
   }
