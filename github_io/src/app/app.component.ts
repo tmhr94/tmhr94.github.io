@@ -20,7 +20,8 @@ export class MyApp {
     this.pages = [
       { title: 'Home', component: 'HomePage' },
       { title: '職務経歴', component: 'JobExperiencesPage' },
-      { title: '技術経歴', component: 'TechnologySkillsPage' }
+      { title: '技術経歴', component: 'TechnologySkillsPage' },
+      { title: '作品経歴', component: 'ProductsPage' }
     ];
 
   }

@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>作品経歴</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-card *ngFor="let item of items">
+    <ion-card-content>
+      <ion-card-title>
+        {{item.title}}
+      </ion-card-title>
+      <ul>
+        <li *ngFor="let list of item.lists">
+          <a href="{{list.url}}">{{list.name}}</a>
+        </li>
+      </ul>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
