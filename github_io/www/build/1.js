@@ -1,14 +1,14 @@
 webpackJsonp([1],{
 
-/***/ 278:
+/***/ 279:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HomePageModule", function() { return HomePageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "JobExperiencesPageModule", function() { return JobExperiencesPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(99);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home__ = __webpack_require__(280);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__job_experiences__ = __webpack_require__(282);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,29 +18,34 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var HomePageModule = (function () {
-    function HomePageModule() {
+var JobExperiencesPageModule = (function () {
+    function JobExperiencesPageModule() {
     }
-    HomePageModule = __decorate([
+    JobExperiencesPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
-            declarations: [__WEBPACK_IMPORTED_MODULE_2__home__["a" /* HomePage */]],
-            imports: [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__home__["a" /* HomePage */])]
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_2__job_experiences__["a" /* JobExperiencesPage */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__job_experiences__["a" /* JobExperiencesPage */]),
+            ],
         })
-    ], HomePageModule);
-    return HomePageModule;
+    ], JobExperiencesPageModule);
+    return JobExperiencesPageModule;
 }());
 
-//# sourceMappingURL=home.module.js.map
+//# sourceMappingURL=job-experiences.module.js.map
 
 /***/ }),
 
-/***/ 280:
+/***/ 282:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return JobExperiencesPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(99);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_firebase_service_firebase_service__ = __webpack_require__(198);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -52,20 +57,31 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-var HomePage = (function () {
-    function HomePage(navCtrl) {
+
+var JobExperiencesPage = (function () {
+    function JobExperiencesPage(navCtrl, navParams, firebaseService) {
+        var _this = this;
         this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.firebaseService = firebaseService;
+        this.items = [];
+        this.firebaseService.getJobExperiences().subscribe(function (res) {
+            _this.items = res;
+        }, function (err) {
+            console.log('err:', err);
+        });
     }
-    HomePage = __decorate([
+    JobExperiencesPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-home',template:/*ion-inline-start:"/Users/tomohirokogawa/Documents/git/rikoroku.github.io/github_io/src/pages/home/home.html"*/'<ion-header>\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Home</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <h3>Ionic Menu Starter</h3>\n\n  <p>\n    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will show you the way.\n  </p>\n\n  <button ion-button secondary menuToggle>Toggle Menu</button>\n</ion-content>\n'/*ion-inline-end:"/Users/tomohirokogawa/Documents/git/rikoroku.github.io/github_io/src/pages/home/home.html"*/
+            selector: 'page-job-experiences',template:/*ion-inline-start:"/Users/tomohirokogawa/Documents/git/rikoroku.github.io/github_io/src/pages/job-experiences/job-experiences.html"*/'<ion-header>\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>職務経歴</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <ion-card *ngFor="let item of items">\n    <ion-card-content>\n      <ion-card-title>\n        {{item.title}}\n      </ion-card-title>\n      <table>\n        <tbody>\n          <tr><td>期間</td><td>：</td><td>{{item.period}}</td></tr>\n          <tr><td>案件担当人数</td><td>：</td><td>{{item.member}}人</td></tr>\n          <tr><td>形態</td><td>：</td><td>{{item.mode}}</td></tr>\n          <tr><td>役割</td><td>：</td><td>{{item.role}}</td></tr>\n          <tr><td>担当内容</td><td>：</td><td>{{item.charge}}</td></tr>\n          <tr><td>使用言語/FW/環境</td><td>：</td><td>{{item.technology}}</td></tr>\n        </tbody>\n      </table>\n    </ion-card-content>\n  </ion-card>\n</ion-content>\n'/*ion-inline-end:"/Users/tomohirokogawa/Documents/git/rikoroku.github.io/github_io/src/pages/job-experiences/job-experiences.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]])
-    ], HomePage);
-    return HomePage;
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_2__providers_firebase_service_firebase_service__["a" /* FirebaseServiceProvider */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__providers_firebase_service_firebase_service__["a" /* FirebaseServiceProvider */]) === "function" && _c || Object])
+    ], JobExperiencesPage);
+    return JobExperiencesPage;
+    var _a, _b, _c;
 }());
 
-//# sourceMappingURL=home.js.map
+//# sourceMappingURL=job-experiences.js.map
 
 /***/ })
 
