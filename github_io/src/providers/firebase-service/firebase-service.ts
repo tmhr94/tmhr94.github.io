@@ -17,4 +17,10 @@ export class FirebaseServiceProvider {
       res => { return res; }
     );
   }
+
+  getTechnologySkills(): Observable<any> {
+    return this.http.get(this.url + 'technology_skills.json').map(
+      res => { return res; }
+    );
+  }
 }
