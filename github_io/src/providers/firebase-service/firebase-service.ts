@@ -29,4 +29,10 @@ export class FirebaseServiceProvider {
       res => { return res; }
     );
   }
+
+  getContacts(): Observable<any> {
+    return this.http.get(this.url + 'contacts.json').map(
+      res => { return res; }
+    );
+  }
 }
