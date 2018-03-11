@@ -23,4 +23,10 @@ export class FirebaseServiceProvider {
       res => { return res; }
     );
   }
+
+  getProducts(): Observable<any> {
+    return this.http.get(this.url + 'products.json').map(
+      res => { return res; }
+    );
+  }
 }
