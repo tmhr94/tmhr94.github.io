@@ -1,4 +1,4 @@
-webpackJsonp([3],{
+webpackJsonp([4],{
 
 /***/ 112:
 /***/ (function(module, exports) {
@@ -23,14 +23,18 @@ webpackEmptyAsyncContext.id = 112;
 var map = {
 	"../pages/home/home.module": [
 		278,
-		2
+		3
 	],
 	"../pages/job-experiences/job-experiences.module": [
 		279,
+		2
+	],
+	"../pages/products/products.module": [
+		280,
 		1
 	],
 	"../pages/technology-skills/technology-skills.module": [
-		280,
+		281,
 		0
 	]
 };
@@ -81,6 +85,9 @@ var FirebaseServiceProvider = (function () {
     };
     FirebaseServiceProvider.prototype.getTechnologySkills = function () {
         return this.http.get(this.url + 'technology_skills.json').map(function (res) { return res; });
+    };
+    FirebaseServiceProvider.prototype.getProducts = function () {
+        return this.http.get(this.url + 'products.json').map(function (res) { return res; });
     };
     FirebaseServiceProvider = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["A" /* Injectable */])(),
@@ -148,6 +155,7 @@ var AppModule = (function () {
                     links: [
                         { loadChildren: '../pages/home/home.module#HomePageModule', name: 'HomePage', segment: 'home', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/job-experiences/job-experiences.module#JobExperiencesPageModule', name: 'JobExperiencesPage', segment: 'job-experiences', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/products/products.module#ProductsPageModule', name: 'ProductsPage', segment: 'products', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/technology-skills/technology-skills.module#TechnologySkillsPageModule', name: 'TechnologySkillsPage', segment: 'technology-skills', priority: 'low', defaultHistory: [] }
                     ]
                 }),
@@ -205,7 +213,8 @@ var MyApp = (function () {
         this.pages = [
             { title: 'Home', component: 'HomePage' },
             { title: '職務経歴', component: 'JobExperiencesPage' },
-            { title: '技術経歴', component: 'TechnologySkillsPage' }
+            { title: '技術経歴', component: 'TechnologySkillsPage' },
+            { title: '作品経歴', component: 'ProductsPage' }
         ];
     }
     MyApp.prototype.initializeApp = function () {
