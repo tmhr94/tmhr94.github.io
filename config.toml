@@ -10,7 +10,7 @@ theme = "hugo-resume"
     phone = ""
     contactNote = "Freelance web developer" #used in QR code only
     profileImage = "https://pbs.twimg.com/profile_images/1041865203225247744/x37ja1Rr_400x400.jpg"
-    email = "under construction"
+    email = "under_construction@example.com"
     description = ""
     favicon = "images/favicon.ico"
 
@@ -18,7 +18,7 @@ theme = "hugo-resume"
     showSkills = true
     showProjects = true
     showOpenSource = true
-    showPublications = true
+    showPublications = false
     showExperience = true
     showEducation = true
 
