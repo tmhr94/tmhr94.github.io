@@ -2,3 +2,42 @@ baseURL = "http://example.org/"
 languageCode = "ja-JP"
 title = "rikoroku's portfolio"
 theme = "hugo-resume"
+
+[params]
+    firstName = "Rikoroku's"
+    lastName = "Portfolio"
+    address = "Aomori"
+    phone = ""
+    contactNote = "Freelance web developer" #used in QR code only
+    profileImage = "https://pbs.twimg.com/profile_images/1041865203225247744/x37ja1Rr_400x400.jpg"
+    email = "under construction"
+    description = ""
+    favicon = "images/favicon.ico"
+
+    # what sections to display.  Setting to false disables navigation and section.
+    showSkills = true
+    showProjects = true
+    showOpenSource = true
+    showPublications = true
+    showExperience = true
+    showEducation = true
+
+    showQr = false
+
+    # do you want to show git hash on page footer and link to repo? Add commit URl for repo here.
+    gitCommitPrefix = ""
+
+
+[[params.handles]]
+    name = "Twitter"
+    link = "https://twitter.com/nanashi191"
+
+[[params.handles]]
+    name = "GitHub"
+    link = "https://github.com/rikoroku"
+
+[params.google.analytics]
+    trackerID = ""
+
+[outputs] #only required for search
+    home = ["HTML", "JSON"]
