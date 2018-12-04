@@ -1,7 +1,9 @@
-baseURL = "http://example.org/"
+baseURL = "https://rikoroku.github.io/"
 languageCode = "ja-JP"
 title = "rikoroku's portfolio"
 theme = "hugo-resume"
+publishdir = "public"
+canonifyurls = true
 
 [params]
     firstName = "Rikoroku's"
