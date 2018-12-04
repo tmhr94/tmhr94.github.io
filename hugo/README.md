@@ -3,7 +3,7 @@ https://rikoroku.github.io/
 
 ## Development
 ```
-$ cd rikoroku.github.io
+$ cd rikoroku.github.io/hugo
 $ hugo -t hugo-resume --themesDir ./themes/ server
 ```
 
