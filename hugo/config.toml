@@ -12,7 +12,7 @@ canonifyurls = true
     phone = ""
     contactNote = "Freelance web developer" #used in QR code only
     profileImage = "https://raw.githubusercontent.com/rikoroku/images/master/develop/rikoroku.github.io/x37ja1Rr_400x400.jpg"
-    email = "under_construction@example.com"
+    email = "rikoroku.55@gmail.com"
     description = ""
     favicon = "images/favicon.ico"
 
@@ -36,6 +36,10 @@ canonifyurls = true
 
 [[params.handles]]
     name = "GitHub"
+    link = "https://github.com/rikoroku"
+
+[[params.handles]]
+    name = ""
     link = "https://github.com/rikoroku"
 
 [params.google.analytics]

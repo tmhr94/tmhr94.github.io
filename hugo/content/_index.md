@@ -10,4 +10,4 @@ outputs:
 - json
 ---
 
-<p>I'm a freelance web developer</p>
+<p>I'm a freelance web developer who can using languages are Ruby, PHP, Golang, JavaScript.</p>
