@@ -39,8 +39,9 @@ canonifyurls = true
     link = "https://github.com/rikoroku"
 
 [[params.handles]]
-    name = ""
-    link = "https://github.com/rikoroku"
+    name = "Blog"
+    link = "https://rikoroku.com"
+    icon = "blogger"
 
 [params.google.analytics]
     trackerID = ""
