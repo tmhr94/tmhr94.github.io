@@ -11,7 +11,7 @@ canonifyurls = true
     address = "Aomori"
     phone = ""
     contactNote = "Freelance web developer" #used in QR code only
-    profileImage = "https://raw.githubusercontent.com/rikoroku/images/master/develop/rikoroku.github.io/x37ja1Rr_400x400.jpg"
+    profileImage = "https://avatars3.githubusercontent.com/u/14220000?s=460&v=4"
     email = "rikoroku.55@gmail.com"
     description = ""
     favicon = "images/favicon.ico"
