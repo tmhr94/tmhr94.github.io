@@ -42,14 +42,8 @@
   </url>
   
   <url>
-    <loc>https://rikoroku.github.io/projects/creations/everyday-todo-android/</loc>
+    <loc>https://rikoroku.github.io/projects/creations/everyday-todo/</loc>
     <lastmod>2017-11-01T00:00:00+09:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://rikoroku.github.io/projects/creations/everyday-todo-ios/</loc>
-    <lastmod>2017-10-01T00:00:00+09:00</lastmod>
     <priority>0.8</priority>
   </url>
   
@@ -130,6 +124,12 @@
   <url>
     <loc>https://rikoroku.github.io/tags/</loc>
     <lastmod>2017-12-01T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rikoroku.github.io/tags/typescript/</loc>
+    <lastmod>2017-11-01T00:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
