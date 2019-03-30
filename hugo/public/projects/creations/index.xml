@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Creations on rikoroku&#39;s portfolio</title>
+    <link>https://rikoroku.github.io/projects/creations/</link>
+    <description>Recent content in Creations on rikoroku&#39;s portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-JP</language>
+    <lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://rikoroku.github.io/projects/creations/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>CoinStats</title>
+      <link>https://rikoroku.github.io/projects/creations/coin-stats/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0900</pubDate>
+      
+      <guid>https://rikoroku.github.io/projects/creations/coin-stats/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Holy Cow(Android)</title>
+      <link>https://rikoroku.github.io/projects/creations/holy-cow-android/</link>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 +0900</pubDate>
+      
+      <guid>https://rikoroku.github.io/projects/creations/holy-cow-android/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Holy Cow(iOS)</title>
+      <link>https://rikoroku.github.io/projects/creations/holy-cow-ios/</link>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 +0900</pubDate>
+      
+      <guid>https://rikoroku.github.io/projects/creations/holy-cow-ios/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>EveryDay Todo</title>
+      <link>https://rikoroku.github.io/projects/creations/everyday-todo/</link>
+      <pubDate>Wed, 01 Nov 2017 00:00:00 +0900</pubDate>
+      
+      <guid>https://rikoroku.github.io/projects/creations/everyday-todo/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
