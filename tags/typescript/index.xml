@@ -6,10 +6,19 @@
     <description>Recent content in Typescript on rikoroku&#39;s portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Wed, 01 Nov 2017 00:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 01 Dec 2017 00:00:00 +0900</lastBuildDate>
     
 	<atom:link href="https://rikoroku.github.io/tags/typescript/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Holy Cow</title>
+      <link>https://rikoroku.github.io/projects/creations/holy-cow/</link>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 +0900</pubDate>
+      
+      <guid>https://rikoroku.github.io/projects/creations/holy-cow/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>EveryDay Todo</title>

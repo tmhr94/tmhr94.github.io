@@ -30,13 +30,7 @@
   </url>
   
   <url>
-    <loc>https://rikoroku.github.io/projects/creations/holy-cow-android/</loc>
-    <lastmod>2017-12-01T00:00:00+09:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://rikoroku.github.io/projects/creations/holy-cow-ios/</loc>
+    <loc>https://rikoroku.github.io/projects/creations/holy-cow/</loc>
     <lastmod>2017-12-01T00:00:00+09:00</lastmod>
     <priority>0.8</priority>
   </url>
@@ -129,7 +123,7 @@
   
   <url>
     <loc>https://rikoroku.github.io/tags/typescript/</loc>
-    <lastmod>2017-11-01T00:00:00+09:00</lastmod>
+    <lastmod>2017-12-01T00:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
