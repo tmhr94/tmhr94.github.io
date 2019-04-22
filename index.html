@@ -88,13 +88,6 @@
           object.scale.y = Math.random() + 0.5;
           scene2.add( object );
 
-          var geometry = new THREE.PlaneBufferGeometry( 100, 100 );
-          var mesh = new THREE.Mesh( geometry, material );
-          mesh.position.copy( object.position );
-          mesh.rotation.copy( object.rotation );
-          mesh.scale.copy( object.scale );
-          scene.add( mesh );
-
         }
 
         renderer = new THREE.WebGLRenderer( { antialias: true } );
