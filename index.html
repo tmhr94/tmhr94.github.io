@@ -1,717 +1,126 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Home</title>
-  <meta property="og:title" content="Home" />
-  <meta property="og:image" content="https://avatars3.githubusercontent.com/u/14220000?s=460&v=4" />
-  <meta name="description" content="">
-  <meta property="og:description" content="" />
-  <meta name="author" content="Rikoroku&#39;s Portfolio">
-  
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
-  
-  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
-  <link href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" rel="stylesheet">
-  <link href='https://cdnjs.cloudflare.com/ajax/libs/devicons/1.8.0/css/devicons.min.css' rel='stylesheet'>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css" rel="stylesheet">
-  
-  <link href="https://rikoroku.github.io/css/resume.css" rel="stylesheet">
-  <link href="https://rikoroku.github.io/css/tweaks.css" rel="stylesheet">
-  <meta name="generator" content="Hugo 0.52" />
-  
-   
-  
-</head>
-<body id="page-top">
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-  <a class="navbar-brand js-scroll-trigger" href="#page-top">
-    <span class="d-block d-lg-none">Rikoroku&#39;s Portfolio</span>
-    <span class="d-none d-lg-block">
-      <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="https://avatars3.githubusercontent.com/u/14220000?s=460&amp;v=4" alt="">
-    </span>
-  </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link js-scroll-trigger" href="https://rikoroku.github.io/#about">About</a>
-      </li>
-      
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="https://rikoroku.github.io/#skills">Skills</a>
-          </li>
-      
-      
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="https://rikoroku.github.io/#projects">Projects</a>
-          </li>
-      
-      
-      
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="https://rikoroku.github.io/#contributions">Contributions</a>
-          </li>
-      
-      
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="https://rikoroku.github.io/#experience">Experience</a>
-          </li>
-      
-      
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="https://rikoroku.github.io/#education">Education</a>
-          </li>
-      
-      
-    </ul>
-  </div>
-</nav>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <style>
+      body {
+        background-color: #ffffff;
+        margin: 0;
+        overflow: hidden;
+      }
+      #info {
+        position: absolute;
+        top: 0px;
+        width: 100%;
+        color: #000000;
+        padding: 5px;
+        font-family: Monospace;
+        font-size: 13px;
+        text-align: center;
+        z-index: 1;
+      }
 
-  <div class="container-fluid p-0">
-    
-   
+      a {
+        color: #000000;
+      }
 
-      <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
-        <div class="my-auto">
-          <div class="resume-item d-flex flex-column flex-md-row">
-            <div class="mr-auto">
+    </style>
+  </head>
+  <body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/103/three.min.js"></script>
 
-              <h1 class="mb-0">Rikoroku&#39;s
-                <span class="text-primary">Portfolio</span>
-              </h1>
-              <div class="subheading mb-5">Aomori ·
-                <a href="mailto:rikoroku.55@gmail.com">rikoroku.55@gmail.com</a>
-              </div>
+    <script src="js/controls/TrackballControls.js"></script>
 
-            </div>
+    <script src="js/renderers/CSS3DRenderer.js"></script>
 
-            
-        </div>
-        <div>
-          <p>I'm a freelance web developer who can using languages are Ruby, PHP, Golang, JavaScript.</p>
+    <script>
 
-          <ul class="list-inline list-social-icons mb-0">
-            
-                <li class="list-inline-item">
-                  <a href="https://twitter.com/rikoroku_ja" data-toggle="tooltip" title="Twitter" data-offset="0 10">
-                    <span class="fa-stack fa-lg">
-                      <i class="fa fa-circle fa-stack-2x"></i>
-                      <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
-                    </span>
-                  </a>
-                </li>
-            
-                <li class="list-inline-item">
-                  <a href="https://github.com/rikoroku" data-toggle="tooltip" title="GitHub" data-offset="0 10">
-                    <span class="fa-stack fa-lg">
-                      <i class="fa fa-circle fa-stack-2x"></i>
-                      <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-                    </span>
-                  </a>
-                </li>
-            
-                <li class="list-inline-item">
-                  <a href="https://rikoroku.com" data-toggle="tooltip" title="Blog" data-offset="0 10">
-                    <span class="fa-stack fa-lg">
-                      <i class="fa fa-circle fa-stack-2x"></i>
-                      <i class="fab fa-blogger fa-stack-1x fa-inverse"></i>
-                    </span>
-                  </a>
-                </li>
-            
-          </ul>
-        </div>
-      </div>
-    </section>
+      var camera, scene, renderer;
 
-   
-       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
-  <div class="my-auto" id="skills-content">
-    <h2 class="mb-5">Skills</h2>
-    
-        <div class="subheading mb-3 skills-heading">Architecture</div>
-            <ul>
-            
-                
-                  <li class="list-inline-item">
-                    <i class="devicons devicons-terminal_badge"></i>
-                    IP Networking
-                  </li>
-                
-            
-                
-                  <li class="list-inline-item">
-                    <i class="devicons devicons-terminal_badge"></i>
-                    DNS
-                  </li>
-                
-            
-                
-                  <li class="list-inline-item">
-                    <i class="devicons devicons-terminal_badge"></i>
-                    Firewalls
-                  </li>
-                
-            
-                
-                  <li class="list-inline-item">
-                    <i class="devicons devicons-terminal_badge"></i>
-                    RESTful APIs
-                  </li>
-                
-            
-            </ul>
-    
-        <div class="subheading mb-3 skills-heading">Languages, Operating Systems &amp; Tools</div>
-            <ul>
-            
-                
-                    <li class="list-inline-item">
-                      <i class="devicons devicons-html5"></i>
-                      
-                        html5(3y and 7m)
-                      
-                    </li>
-                
-            
-                
-                    <li class="list-inline-item">
-                      <i class="devicons devicons-css3"></i>
-                      
-                        css3(3y and 7m)
-                      
-                    </li>
-                
-            
-                
-                    <li class="list-inline-item">
-                      <i class="devicons devicons-javascript"></i>
-                      
-                        javascript(3y and 7m)
-                      
-                    </li>
-                
-            
-                
-                    <li class="list-inline-item">
-                      <i class="devicons devicons-jquery"></i>
-                      
-                        jquery(2y and 11m)
-                      
-                    </li>
-                
-            
-                
-                    <li class="list-inline-item">
-                      <i class="devicons devicons-angular"></i>
-                      
-                        angular(4m)
-                      
-                    </li>
-                
-            
-                
-                    <li class="list-inline-item">
-                      <i class="devicons devicons-ionic"></i>
-                      
-                        ionic(3m)
-                      
-                    </li>
-                
-            
-                
-                    <li class="list-inline-item">
-                      <i class="devicons devicons-php"></i>
-                      
-                        php(1y)
-                      
-                    </li>
-                
-            
-                
-                    <li class="list-inline-item">
-                      <i class="devicons devicons-terminal_badge"></i>
-                      
-                        CakePHP(5m)
-                      
-                    </li>
-                
-            
-                
-                    <li class="list-inline-item">
-                      <i class="devicons devicons-terminal_badge"></i>
-                      
-                        FuelPHP(2m)
-                      
-                    </li>
-                
-            
-                
-                    <li class="list-inline-item">
-                      <i class="devicons devicons-laravel"></i>
-                      
-                        laravel(4m)
-                      
-                    </li>
-                
-            
-                
-                    <li class="list-inline-item">
-                      <i class="devicons devicons-ruby"></i>
-                      
-                        ruby(2y and 11m)
-                      
-                    </li>
-                
-            
-                
-                    <li class="list-inline-item">
-                      <i class="devicons devicons-ruby_on_rails"></i>
-                      
-                        ruby_on_rails(2y and 9m)
-                      
-                    </li>
-                
-            
-                
-                    <li class="list-inline-item">
-                      <i class="devicons devicons-go"></i>
-                      
-                        go(3m)
-                      
-                    </li>
-                
-            
-                
-                    <li class="list-inline-item">
-                      <i class="devicons devicons-redhat"></i>
-                      
-                        redhat(2y and 11m)
-                      
-                    </li>
-                
-            
-                
-                    <li class="list-inline-item">
-                      <i class="devicons devicons-ubuntu"></i>
-                      
-                        ubuntu(4m)
-                      
-                    </li>
-                
-            
-                
-                    <li class="list-inline-item">
-                      <i class="devicons devicons-git"></i>
-                      
-                        git(3y and 11m)
-                      
-                    </li>
-                
-            
-                
-                    <li class="list-inline-item">
-                      <i class="devicons devicons-terminal_badge"></i>
-                      
-                        bash(3y and 11m)
-                      
-                    </li>
-                
-            
-            </ul>
-    
-        <div class="subheading mb-3 skills-heading">Platform Development &amp; Administration</div>
-            <ul>
-            
-                
-                    <li class="list-inline-item">
-                      <i class="devicons devicons-atlassian"></i>
-                      
-                        Atlassian
-                      
-                    </li>
-                
-            
-                
-                    <li class="list-inline-item">
-                      <i class="devicons devicons-nginx"></i>
-                      
-                        NGINX(1y and 3m)
-                      
-                    </li>
-                
-            
-                
-                    <li class="list-inline-item">
-                      <i class="devicons devicons-terminal_badge"></i>
-                      
-                        Apache(2y and 8m)
-                      
-                    </li>
-                
-            
-                
-                    <li class="list-inline-item">
-                      <i class="devicons devicons-github"></i>
-                      
-                        Github(3y and 11m)
-                      
-                    </li>
-                
-            
-                
-                    <li class="list-inline-item">
-                      <i class="devicons devicons-bitbucket"></i>
-                      
-                        Bitbucket(4m)
-                      
-                    </li>
-                
-            
-                
-                    <li class="list-inline-item">
-                      <i class="devicons devicons-postgresql"></i>
-                      
-                        PostgreSQL(1y and 3m)
-                      
-                    </li>
-                
-            
-                
-                    <li class="list-inline-item">
-                      <i class="devicons devicons-mysql"></i>
-                      
-                        MySQL(3y and 7m)
-                      
-                    </li>
-                
-            
-                
-                    <li class="list-inline-item">
-                      <i class="devicons devicons-terminal_badge"></i>
-                      
-                        DynamoDB(2m)
-                      
-                    </li>
-                
-            
-                
-                    <li class="list-inline-item">
-                      <i class="devicons devicons-wordpress"></i>
-                      
-                        Wordpress(1y)
-                      
-                    </li>
-                
-            
-                
-                    <li class="list-inline-item">
-                      <i class="devicons devicons-terminal_badge"></i>
-                      
-                        Zabbix(6m)
-                      
-                    </li>
-                
-            
-                
-                    <li class="list-inline-item">
-                      <i class="devicons devicons-terminal_badge"></i>
-                      
-                        Backlog(2y)
-                      
-                    </li>
-                
-            
-                
-                    <li class="list-inline-item">
-                      <i class="devicons devicons-terminal_badge"></i>
-                      
-                        Slack(3y and 11m)
-                      
-                    </li>
-                
-            
-            </ul>
-    
-        <div class="subheading mb-3 skills-heading">Containers &amp; Cloud</div>
-            <ul>
-            
-                
-                    <li class="list-inline-item">
-                      <i class="devicons devicons-docker"></i>
-                      
-                        Docker(9 month)
-                      
-                    </li>
-                
-            
-                
-                    <li class="list-inline-item">
-                      <i class="devicons devicons-aws"></i>
-                      
-                        AWS(4 month)
-                      
-                    </li>
-                
-            
-            </ul>
-    
-  </div>
-</section>
+      var scene2, renderer2;
 
-   
-   
-      
-         
-         <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="projects">
-  <div class="my-auto" id="projects-content">
-    <h2 class="mb-5"><a href="https://rikoroku.github.io/projects/creations/">Creations</a></h2>
-    <p><p>A collection of projects authored by Rikoroku.</p>
-</p>
-    
-    
-      
-<div class="resume-item d-flex flex-column flex-md-row mb-3">
+      var controls;
 
-  <div class="resume-content " style="width:200px;!important;">
-    <a href="https://coin-stats.site/">
-      
-        <img src="https://raw.githubusercontent.com/rikoroku/images/master/develop/rikoroku.github.io/9f1f11bd-6752-4e93-b8f6-b35d2bb18e85.png" style="height:100px;width:150px;object-fit: cover;"/>
-      
-    </a>
-  </div>
-  <div class="resume-date">
-      <h3 class="mb-3" style="display: inline-block;">
-        <a href="https://coin-stats.site/">
-          CoinStats
-        </a>
-      </h3>
-      
-  </div>
-</div>
-<div><ul class="tags">
-    
-      <li><a class="tag" href="https://rikoroku.github.io/tags/angular2">Angular2</a></li>
-    
-      <li><a class="tag" href="https://rikoroku.github.io/tags/material-design">Material Design</a></li>
-    
-      <li><a class="tag" href="https://rikoroku.github.io/tags/%E3%81%95%E3%81%8F%E3%82%89%E3%81%AEvps">さくらのVPS</a></li>
-    
-      <li><a class="tag" href="https://rikoroku.github.io/tags/api">API</a></li>
-    
-      <li><a class="tag" href="https://rikoroku.github.io/tags/spa">SPA</a></li>
-    
-      <li><a class="tag" href="https://rikoroku.github.io/tags/ruby-on-rails5">Ruby on Rails5</a></li>
-    
-</ul>
-</div>
+      init();
+      animate();
 
-    
-      
-<div class="resume-item d-flex flex-column flex-md-row mb-3">
+      function init() {
 
-  <div class="resume-content " style="width:200px;!important;">
-    
-      
-        <img src="https://raw.githubusercontent.com/rikoroku/images/master/develop/rikoroku.github.io/45ad4ddd-76e5-4cbb-9a82-69037b9cfa2b.png" style="height:100px;width:150px;object-fit: cover;"/>
-      
-    </a>
-  </div>
-  <div class="resume-date">
-      <h3 class="mb-3" style="display: inline-block;">
-        
-          Holy Cow
-        </a>
-      </h3>
-      <a href="https://play.google.com/store/apps/details?id=com.kogawawork.holycow&hl=ja">Android</a>, <a href="https://itunes.apple.com/jp/app/holy-cow/id1323714301?l=ja&ls=1&mt=8">iOS</a>
-  </div>
-</div>
-<div><ul class="tags">
-    
-      <li><a class="tag" href="https://rikoroku.github.io/tags/ionic">Ionic</a></li>
-    
-      <li><a class="tag" href="https://rikoroku.github.io/tags/angular2">Angular2</a></li>
-    
-      <li><a class="tag" href="https://rikoroku.github.io/tags/typescript">TypeScript</a></li>
-    
-      <li><a class="tag" href="https://rikoroku.github.io/tags/android">Android</a></li>
-    
-      <li><a class="tag" href="https://rikoroku.github.io/tags/ios">iOS</a></li>
-    
-</ul>
-</div>
+        camera = new THREE.PerspectiveCamera( 45, window.innerWidth / window.innerHeight, 1, 1000 );
+        camera.position.set( 200, 200, 200 );
 
-    
-      
-<div class="resume-item d-flex flex-column flex-md-row mb-3">
+        controls = new THREE.TrackballControls( camera );
 
-  <div class="resume-content " style="width:200px;!important;">
-    
-      
-        <img src="https://raw.githubusercontent.com/rikoroku/images/master/develop/rikoroku.github.io/everyday-todo.png" style="height:100px;width:150px;object-fit: cover;"/>
-      
-    </a>
-  </div>
-  <div class="resume-date">
-      <h3 class="mb-3" style="display: inline-block;">
-        
-          EveryDay Todo
-        </a>
-      </h3>
-      <a href="https://play.google.com/store/apps/details?id=com.ionicframework.everydaytodo880856&hl=ja">Android</a>, <a href="https://itunes.apple.com/us/app/%E6%AF%8E%E6%97%A5todo/id1296569907?mt=8">iOS</a>
-  </div>
-</div>
-<div><ul class="tags">
-    
-      <li><a class="tag" href="https://rikoroku.github.io/tags/ionic">Ionic</a></li>
-    
-      <li><a class="tag" href="https://rikoroku.github.io/tags/angular2">Angular2</a></li>
-    
-      <li><a class="tag" href="https://rikoroku.github.io/tags/typescript">TypeScript</a></li>
-    
-      <li><a class="tag" href="https://rikoroku.github.io/tags/android">Android</a></li>
-    
-      <li><a class="tag" href="https://rikoroku.github.io/tags/ios">iOS</a></li>
-    
-</ul>
-</div>
+        scene = new THREE.Scene();
+        scene.background = new THREE.Color( 0xf0f0f0 );
 
-    
-  </div>
-  
-</section>
+        scene2 = new THREE.Scene();
 
-      
-   
-   
-   
-      
-         
-         <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="contributions">
-  <div class="my-auto" id="projects-content">
-    <h2 class="mb-5"><a href="https://rikoroku.github.io/contributions/">Contributions</a></h2>
-    <p><p>A collection of contribute to projects.</p>
-</p>
-    
-    
-      
-<div class="resume-item d-flex flex-column flex-md-row mb-5">
-  <div class="publication-content mr-auto">
-    <h3 class="mb-0"><a href="https://rikoroku.github.io/contributions/all-contributions/">All Contributions</a></h3>
-    <div>Caution: All contributions are written by only Japanese language.</div>
-  </div>
-  <div class="resume-date text-md-right">
-    <img src="" style="max-width:250px;padding:5px;"/>
-  </div>
-</div>
+        var material = new THREE.MeshBasicMaterial( { color: 0x000000, wireframe: true, wireframeLinewidth: 1, side: THREE.DoubleSide } );
 
-    
-  </div>
-  
-</section>
+        var properties = [
+          {"color": "rgb(105,105,105)", "url": "https://github.com/rikoroku"},
+          {"color": "rgb(85,172,238)", "url": "https://twitter.com/rikoroku"},
+          {"color": "rgb(255,250,250)", "url": "https://rikoroku.com/"},
+          {"color": "rgb(195,131,157)", "url": "https://rikoroku.com/resume/"},
+        ];
 
-      
-   
-   
-       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
-  <div class="my-auto" id="experience-content">
-    <h2 class="mb-5">Experience</h2>
-    
-        <div class="resume-item d-flex flex-column flex-md-row mb-5">
-          <div class="resume-content mr-auto">
-            <h3 class="mb-0">Freelance web developer</h3>
-            <div class="subheading mb-3">Chiyuu</div>
-            <p></p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">January 2017 - Present</span>
-          </div>
-        </div>
-    
-        <div class="resume-item d-flex flex-column flex-md-row mb-5">
-          <div class="resume-content mr-auto">
-            <h3 class="mb-0">Web developer</h3>
-            <div class="subheading mb-3">DMM ACADEMY</div>
-            <p></p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">April 2017 - July 2017</span>
-          </div>
-        </div>
-    
-        <div class="resume-item d-flex flex-column flex-md-row mb-5">
-          <div class="resume-content mr-auto">
-            <h3 class="mb-0">System developer</h3>
-            <div class="subheading mb-3">Accel Universe Corporation</div>
-            <p></p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">January 2015 - October 2016</span>
-          </div>
-        </div>
-    
-        <div class="resume-item d-flex flex-column flex-md-row mb-5">
-          <div class="resume-content mr-auto">
-            <h3 class="mb-0">Site worker</h3>
-            <div class="subheading mb-3">KINDEN CORPORATION</div>
-            <p>Electrical work for building construction.</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">April 2013 - December 2014</span>
-          </div>
-        </div>
-    
-  </div>
+        for ( var i = 0; i < 4; i ++ ) {
 
-</section>
+          var element = document.createElement( 'div' );
+          element.style.width = '100px';
+          element.style.height = '100px';
+          element.style.opacity = ( i < 5 ) ? 0.5 : 1;
+          element.style.background = new THREE.Color( properties[i]["color"] ).getStyle();
 
-   
-   
-               <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
-          <div class="my-auto">
-            <h2 class="mb-5">Education</h2>
-            
-              <div class="resume-item d-flex flex-column flex-md-row mb-5">
-                <div class="resume-content mr-auto">
-                  <h3 class="mb-0">Hirosaki Technical High School</h3>
-                  <div class="subheading mb-3">High school diploma</div>
-                  <div>Electricity</div>
-                </div>
-                <div class="resume-date text-md-right">
-                  <span class="text-primary">2010 - 2013</span>
-                </div>
-              </div>
-              
-           </div>
-        </section>
+          let url = properties[i]["url"];
+          element.onclick = function() { window.open(url,'_blank'); };
 
-   
-   
+          var object = new THREE.CSS3DObject( element );
+          object.position.x = Math.random() * 200 - 100;
+          object.position.y = Math.random() * 200 - 100;
+          object.position.z = Math.random() * 200 - 100;
+          object.rotation.x = Math.random();
+          object.rotation.y = Math.random();
+          object.rotation.z = Math.random();
+          object.scale.x = Math.random() + 0.5;
+          object.scale.y = Math.random() + 0.5;
+          scene2.add( object );
 
-  </div>
-  
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+          var geometry = new THREE.PlaneBufferGeometry( 100, 100 );
+          var mesh = new THREE.Mesh( geometry, material );
+          mesh.position.copy( object.position );
+          mesh.rotation.copy( object.rotation );
+          mesh.scale.copy( object.scale );
+          scene.add( mesh );
 
-  
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-  
-  <script src="https://rikoroku.github.io/js/resume.js"></script>
-  <script async src="https://www.googletagmanager.com/gtag/js?id="></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+        }
 
-    gtag('config', '');
-  </script>
-  
+        renderer = new THREE.WebGLRenderer( { antialias: true } );
+        renderer.setPixelRatio( window.devicePixelRatio );
+        renderer.setSize( window.innerWidth, window.innerHeight );
+        document.body.appendChild( renderer.domElement );
 
-  
-</body>
+        renderer2 = new THREE.CSS3DRenderer();
+        renderer2.setSize( window.innerWidth, window.innerHeight );
+        renderer2.domElement.style.position = 'absolute';
+        renderer2.domElement.style.top = 0;
+        document.body.appendChild( renderer2.domElement );
+
+      }
+
+      function animate() {
+
+        requestAnimationFrame( animate );
+
+        controls.update();
+
+        renderer.render( scene, camera );
+        renderer2.render( scene2, camera );
+
+      }
+
+    </script>
+  </body>
 </html>
