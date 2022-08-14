@@ -1,8 +1,9 @@
-# io
+# rikoroku.github.io
 
 ## Setup
 
 ```bash
+# You have to install rbenv beforehand
 $ bundle install
 ```
 
