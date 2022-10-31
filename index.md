@@ -16,7 +16,7 @@ layout: default
 ## Links
 
 | -- | -- |
-| **SNS** | [twitter](https://twitter.com/rikoroku){:target="_blank"}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<!-- TODO: Remove &nbsp; and implement CSS -->  |
+| **SNS** | [twitter](https://twitter.com/rikoroku){:target="_blank"} |
 |  | [github](https://github.com/rikoroku){:target="_blank"} |
 | **パーソナル** | [職務経歴](work-experience) |
 

@@ -8,3 +8,7 @@ h2 {
   border-bottom: 1px solid $grey-color-light;
   padding-bottom: 4px;
 }
+
+tr > *:first-child {
+  width: 25%;
+}
