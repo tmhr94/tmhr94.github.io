@@ -18,4 +18,5 @@ layout: default
 | -- | -- |
 | **SNS** | [twitter](https://twitter.com/rikoroku){:target="_blank"} |
 |  | [github](https://github.com/rikoroku){:target="_blank"} |
-| **パーソナル** | [職務経歴](/posts/work-experience) |
+| **パーソナル** | [workspace](/posts/workspace) |
+|  | [職務経歴](/posts/work-experience) |
