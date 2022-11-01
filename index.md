@@ -7,16 +7,25 @@ layout: default
 
 ## 自己紹介
 
-| -- | -- |
-| **年齢** | 28歳(平成6年生まれ) |
-| **住まい** | 宮城県仙台市 |
-| **職業** | Webエンジニア(since January 2015) |
-| **形態** | フリーランス, フルリモート |
+- 年齢
+  - 28歳(平成6年生まれ)
+- 住まい
+  - 宮城県仙台市
+- 職業
+  - Webエンジニア(since January 2015)
+- 形態
+  - フリーランス, フルリモート
 
 ## Links
+### SNS
+- [Twitter](https://twitter.com/rikoroku){:target="_blank"}
+- [GitHub](https://github.com/rikoroku){:target="_blank"}
+- [Qiita](https://qiita.com/rikoroku){:target="_blank"}
 
-| -- | -- |
-| **SNS** | [twitter](https://twitter.com/rikoroku){:target="_blank"} |
-|  | [github](https://github.com/rikoroku){:target="_blank"} |
-| **パーソナル** | [workspace](/pages/workspace) |
-|  | [職務経歴](/pages/work-experience) |
+### 技術/ビジネス
+- [WIP 職務経歴](/pages/work-experience)
+- [技術関連のナレッジ](https://github.com/rikoroku/docs)
+
+### パーソナル
+- [workspace](/pages/workspace)
+- [about-me](/pages/about-me)
