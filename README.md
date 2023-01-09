@@ -1,15 +1,11 @@
 # rikoroku.github.io
 
-## Setup
+## Commands
 
 ```bash
 # You have to install rbenv beforehand
-$ bundle install
-```
+$ make setup
 
-## How to serve
-
-```bash
-$ bundle exec jekyll serve --trace --watch --verbose --port 3000
 # You can access the page on localhost:3000
+$ make serve
 ```
