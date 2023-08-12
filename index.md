@@ -13,7 +13,8 @@ layout: default
 - 趣味など: [こちら](/pages/about-me)をクリック
 
 ## Self-Promotion
-仕事をする上で以下のことは特に大事にしています。他は[こちら](/pages/self-promotion)に詳細にまとめております。
+仕事をする上で以下のことは特に大事にしています。<br>
+※ 他は[こちら](/pages/self-promotion)に詳細にまとめております。
 
 - 人は皆大切な存在だと忘れず、相手の尊厳を損なわないような態度や発言で接する
   - 参考: [人望が集まる人の考え方](https://amzn.to/3EclinP)
@@ -60,4 +61,4 @@ layout: default
 - Middlewares
   - Nginx, Apache, PostgreSQL, MySQL, DynamoDB
 - Others
-  - Redhat, Ubuntu, Git, Docker, AWS, tig, Zabbix, Datadog, LocalStack, 
+  - Redhat, Ubuntu, Git, Docker, AWS, tig, Zabbix, Datadog, LocalStack, Sentry, ChatGPT4, GitHub Copilot
