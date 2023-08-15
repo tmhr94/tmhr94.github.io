@@ -5,21 +5,15 @@ layout: default
 
 ## About me
 
-- 年齢: 　　29歳(Born in 1994)
+- 年齢: 　　29歳(1994年生まれ)
 - 居住地: 　宮城県仙台市
-- 職業: 　　Webエンジニア(since January 2015)
+- 職業: 　　Webエンジニア(2015年1月より)
 - 形態: 　　フリーランス, フルリモート
 - SNS: 　　[Twitter](https://twitter.com/rikoroku){:target="_blank"}, [GitHub](https://github.com/rikoroku){:target="_blank"}, [Qiita](https://qiita.com/rikoroku){:target="_blank"}
 - 趣味など: [こちら](/pages/about-me)をクリック
 
 ## Self-Promotion
-仕事をする上で以下のことは特に大事にしています。<br>
-※ 他は[こちら](/pages/self-promotion)に詳細にまとめております。
-
-- 人は皆大切な存在だと忘れず、相手の尊厳を損なわないような態度や発言で接する
-  - 参考: [人望が集まる人の考え方](https://amzn.to/3EclinP)
-- 簡潔にわかりやすく物事を伝える
-  - 参考: [考える技術・書く技術](https://amzn.to/3DRHP91)
+[こちら](/pages/self-promotion)に詳細にまとめております。
 
 ## Work experiences
 各プロジェクトの詳細などは[こちら](https://docs.google.com/spreadsheets/d/1juvOVBd4XsX6fyyK0NNUaoo7NuDNba1uW8uepicOzck/edit?usp=sharing){:target="_blank"}から
@@ -39,11 +33,6 @@ layout: default
 - 2013/04 ~ 2014/12(1年8ヶ月)
   - [KINDEN CORPORATION](https://www.kinden.co.jp/)
     - 高校卒業後、電気工事士として従事
-
-## Languages
-- Japanese - native
-- English – beginner(Learning activities recorded on [twitter](https://twitter.com/jom_vlog))
-  - TOEIC715(L355/R360)
 
 ## Personal projects
 - [CoinStats](/pages/coin-stats/)
