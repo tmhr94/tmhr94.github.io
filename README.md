@@ -1,4 +1,4 @@
-# rikoroku.github.io
+# tmhr94.github.io
 
 ## Commands
 

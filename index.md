@@ -9,7 +9,7 @@ layout: default
 - 居住地: 　宮城県仙台市
 - 職業: 　　Webエンジニア(2015年1月より)
 - 形態: 　　フリーランス, フルリモート
-- SNS: 　　[Twitter](https://twitter.com/rikoroku){:target="_blank"}, [GitHub](https://github.com/rikoroku){:target="_blank"}, [Qiita](https://qiita.com/rikoroku){:target="_blank"}
+- SNS: 　　[Twitter](https://twitter.com/tmhr94){:target="_blank"}, [GitHub](https://github.com/tmhr94){:target="_blank"}, [Qiita](https://qiita.com/tmhr94){:target="_blank"}
 - 趣味など: [こちら](/pages/about-me)をクリック
 
 ## Self-Promotion
