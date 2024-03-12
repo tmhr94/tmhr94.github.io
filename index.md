@@ -4,7 +4,7 @@ layout: default
 ---
 
 ## About me
-
+- 名前: 　　古川 智大(Tomohiro Kogawa)
 - 年齢: 　　29歳(1994年生まれ)
 - 居住地: 　宮城県仙台市
 - 職業: 　　Webエンジニア(2015年1月より)
