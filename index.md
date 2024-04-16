@@ -16,7 +16,7 @@ layout: default
 [こちら](/pages/self-promotion)に詳細にまとめております。
 
 ## Work experiences
-各プロジェクトの詳細などは[こちら](https://docs.google.com/spreadsheets/d/1juvOVBd4XsX6fyyK0NNUaoo7NuDNba1uW8uepicOzck/edit?usp=sharing){:target="_blank"}から
+各プロジェクトの詳細などは[こちら](https://docs.google.com/spreadsheets/d/1mZBtDzYr1rLVHNHTNIflXxASFTjWeu1xmsuQN5BzQzE/edit#gid=0){:target="_blank"}から
 
 - 2017/01 ~ 現在まで(5年以上)
   - [CHIYUU](https://chiyuu-official.com/)
