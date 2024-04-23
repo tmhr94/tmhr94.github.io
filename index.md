@@ -9,7 +9,7 @@ layout: default
 - 居住地: 　宮城県仙台市
 - 職業: 　　Webエンジニア(2015年1月より)
 - 形態: 　　フリーランス, フルリモート
-- SNS: 　　[Twitter](https://twitter.com/tmhr94){:target="_blank"}, [GitHub](https://github.com/tmhr94){:target="_blank"}, [Qiita](https://qiita.com/tmhr94){:target="_blank"}
+- SNS: 　　[Twitter](https://twitter.com/tmhr94){:target="_blank"}, [GitHub](https://github.com/tmhr94){:target="_blank"}
 - 趣味など: [こちら](/pages/about-me)をクリック
 
 ## Work experiences
@@ -19,7 +19,7 @@ layout: default
   - [株式会社CHIYUU](https://chiyuu.co.jp/)
     - 代表兼システムエンジニアとして従事
 - 2017/01 ~ 2024/02(7年2ヶ月)
-  - CHIYUU
+  - CHIYUU(屋号)
     - 2017/01に開業して以来フリーランスのシステムエンジニアとして従事
 - 2019/05 ~ 2019/07(3ヶ月)
   - [MMM Co., Ltd.(現: デロイト トーマツウェブサービス株式会社)](https://mmmcorp.co.jp/)
