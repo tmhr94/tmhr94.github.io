@@ -12,9 +12,6 @@ layout: default
 - SNS: 　　[Twitter](https://twitter.com/tmhr94){:target="_blank"}, [GitHub](https://github.com/tmhr94){:target="_blank"}, [Qiita](https://qiita.com/tmhr94){:target="_blank"}
 - 趣味など: [こちら](/pages/about-me)をクリック
 
-## Self-Promotion
-[こちら](/pages/self-promotion)に詳細にまとめております。
-
 ## Work experiences
 各プロジェクトの詳細などは[こちら](https://docs.google.com/spreadsheets/d/1mZBtDzYr1rLVHNHTNIflXxASFTjWeu1xmsuQN5BzQzE/edit#gid=0){:target="_blank"}から
 
