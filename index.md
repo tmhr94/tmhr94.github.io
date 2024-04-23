@@ -15,8 +15,11 @@ layout: default
 ## Work experiences
 各プロジェクトの詳細などは[こちら](https://docs.google.com/spreadsheets/d/1mZBtDzYr1rLVHNHTNIflXxASFTjWeu1xmsuQN5BzQzE/edit#gid=0){:target="_blank"}から
 
-- 2017/01 ~ 現在まで(5年以上)
-  - [CHIYUU](https://chiyuu-official.com/)
+- 2024/03 ~ 現在
+  - [株式会社CHIYUU](https://chiyuu.co.jp/)
+    - 代表兼システムエンジニアとして従事
+- 2017/01 ~ 2024/02(7年2ヶ月)
+  - CHIYUU
     - 2017/01に開業して以来フリーランスのシステムエンジニアとして従事
 - 2019/05 ~ 2019/07(3ヶ月)
   - [MMM Co., Ltd.(現: デロイト トーマツウェブサービス株式会社)](https://mmmcorp.co.jp/)
