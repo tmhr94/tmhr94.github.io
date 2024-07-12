@@ -4,6 +4,7 @@ layout: default
 
 # Workspace
 ## 現状
+
 ![workspace](/assets/images/workspace.jpg)
 
 - デスク
