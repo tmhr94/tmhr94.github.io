@@ -1,0 +1,20 @@
+no: 15
+title: "インバスケット研修システム開発"
+period: "2018/2/1~2018/3/31"
+duration: "(2ヶ月)"
+client: "AWS特化受託開発企業"
+affiliation: "フリーランス"
+summary:
+  - "デザインより機能を洗い出しAPIの詳細設計&実装&テストを行う"
+  - "デザインよりフロントエンドの詳細設計&実装&テストを行う"
+techStack: "HTML5/CSS3, JavaScript, Ruby, Ruby on Rails, MySQL, Ubuntu, Docker, AWS"
+tags:
+  - "HTML5/CSS3"
+  - "JavaScript"
+  - "Ruby"
+  - "Ruby on Rails"
+  - "MySQL"
+  - "Ubuntu"
+  - "Docker"
+  - "AWS"
+hasDetail: false

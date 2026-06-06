@@ -1,0 +1,17 @@
+no: 17
+title: "スマホアプリ配布管理プラットフォーム開発"
+period: "2018/9/1~2018/11/30"
+duration: "(3ヶ月)"
+client: "AWS特化受託開発企業"
+affiliation: "フリーランス"
+summary:
+  - "デザインからAPIのエンドポイント&実装詳細設計"
+  - "テストケース作成&テスト実施"
+techStack: "Golang DynamoDB, Amazon Linux, Docker, Swagger UI, AWS Lambda"
+tags:
+  - "Golang DynamoDB"
+  - "Amazon Linux"
+  - "Docker"
+  - "Swagger UI"
+  - "AWS Lambda"
+hasDetail: false

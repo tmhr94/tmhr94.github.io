@@ -1,0 +1,21 @@
+no: 9
+title: "MDMシステム開発"
+period: "2017/1/5~2017/2/28"
+duration: "(2ヶ月)"
+client: "モバイルセキュリティサービス提供会社\n(東証プライム市場上場)\n"
+affiliation: "フリーランス"
+summary:
+  - "BtoB向けアプリのサーバーサイドのシステム改修作業を実施"
+  - "セキュリティインシデントの改修作業がメイン"
+techStack: "HTML5, CSS3, JavaScript, Ruby, jQuery, Ruby on Rails, MySQL, Ubuntu, Docker"
+tags:
+  - "HTML5"
+  - "CSS3"
+  - "JavaScript"
+  - "Ruby"
+  - "jQuery"
+  - "Ruby on Rails"
+  - "MySQL"
+  - "Ubuntu"
+  - "Docker"
+hasDetail: false

@@ -1,0 +1,19 @@
+no: 11
+title: "会社広報用サイト作成"
+period: "2017/4/1~2017/7/31"
+duration: "(4ヶ月)"
+client: "DMMアカデミー一期生"
+affiliation: "契約社員"
+summary:
+  - "WordPressとさくらのVPSを用いて会社広報用サイトを作成、運用"
+techStack: "HTML5, CSS3, JavaScript, PHP, WordPress, jQuery, MySQL, さくらのVPS"
+tags:
+  - "HTML5"
+  - "CSS3"
+  - "JavaScript"
+  - "PHP"
+  - "WordPress"
+  - "jQuery"
+  - "MySQL"
+  - "さくらのVPS"
+hasDetail: false

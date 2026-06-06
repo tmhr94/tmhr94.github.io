@@ -1,0 +1,22 @@
+no: 6
+title: "コーポレートスマホアプリのサーバーサイド改修、アプリ改修"
+period: "2016/5/1~2016/10/28"
+duration: "(6ヶ月)"
+client: "アクセルユニバース株式会社"
+affiliation: "正社員"
+summary:
+  - "issueによるAPI改修の実施&テスト"
+  - "issueによるスマホアプリ改修の実施&テスト"
+techStack: "Objective-c, HTML5, CSS3, JavaScript, MySQL, CentOS, AWS, CocoaPods,\njQuery, CakePHP2\n"
+tags:
+  - "Objective-c"
+  - "HTML5"
+  - "CSS3"
+  - "JavaScript"
+  - "MySQL"
+  - "CentOS"
+  - "AWS"
+  - "CocoaPods"
+  - "jQuery"
+  - "CakePHP2"
+hasDetail: false

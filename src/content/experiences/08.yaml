@@ -1,0 +1,22 @@
+no: 8
+title: "CRMシステム開発(SPA)"
+period: "2016/11/1~2016/12/28"
+duration: "(2ヶ月)"
+client: "ベンチャー受託開発会社"
+affiliation: "アルバイト"
+summary:
+  - "CRMシステムの改修作業を実施"
+techStack: "HTML5, CSS3, Ruby, CoffeeScript, Sass, MySQL, Ubuntu, Docker, Grunt, Ruby on Rails4, AngularJS"
+tags:
+  - "HTML5"
+  - "CSS3"
+  - "Ruby"
+  - "CoffeeScript"
+  - "Sass"
+  - "MySQL"
+  - "Ubuntu"
+  - "Docker"
+  - "Grunt"
+  - "Ruby on Rails4"
+  - "AngularJS"
+hasDetail: false

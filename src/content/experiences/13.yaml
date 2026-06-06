@@ -1,0 +1,21 @@
+no: 13
+title: "中小企業・ベンチャー向けクラウドERPシステム改修"
+period: "2017/8/1~2017/9/30"
+duration: "(2ヶ月)"
+client: "教育関連SaaS提供企業"
+affiliation: "フリーランス"
+summary:
+  - "クラウドERPシステムの機能改修を実施。主にAngularJSからAngular2への移行部分を担当"
+techStack: "HTML5, CSS3, JavaScript, Ruby, TypeScript, AngularJS, Angular2, Ruby on Rails, MySQL, Ubuntu"
+tags:
+  - "HTML5"
+  - "CSS3"
+  - "JavaScript"
+  - "Ruby"
+  - "TypeScript"
+  - "AngularJS"
+  - "Angular2"
+  - "Ruby on Rails"
+  - "MySQL"
+  - "Ubuntu"
+hasDetail: false

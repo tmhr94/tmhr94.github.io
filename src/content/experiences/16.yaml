@@ -1,0 +1,20 @@
+no: 16
+title: "大規模新卒研修のインストラクター担当"
+period: "2018/5/1~2018/7/31"
+duration: "(3ヶ月)"
+client: "大手ECサイト運営企業"
+affiliation: "フリーランス"
+summary:
+  - "非エンジニアの新卒向けに教材を使用したエンジニア研修のサポートコーチ"
+  - "教材ではカバー出来ない分野の教材をスライドで作成し、全新卒(255名ほど)の前で講習を行う"
+techStack: "HTML5/CSS3, PHP, Laravel, JavaScript, MySQL, CentOS, VirtualBox, Vagrant"
+tags:
+  - "HTML5/CSS3"
+  - "PHP"
+  - "Laravel"
+  - "JavaScript"
+  - "MySQL"
+  - "CentOS"
+  - "VirtualBox"
+  - "Vagrant"
+hasDetail: false

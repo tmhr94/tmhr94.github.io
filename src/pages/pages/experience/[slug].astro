@@ -1,0 +1,77 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const entries = await getCollection('experiences');
+
+  return entries
+    .filter((entry) => entry.data.hasDetail)
+    .map((entry) => ({
+      params: {
+        slug: entry.id.replace(/\.(md|ya?ml)$/, ''),
+      },
+      props: {
+        entry,
+      },
+    }));
+}
+
+const { entry } = Astro.props;
+const data = entry.data;
+const period = [data.period, data.duration].filter(Boolean).join(' - ');
+const affiliation = (Array.isArray(data.affiliation) ? data.affiliation : [data.affiliation]).filter(Boolean).join('\n');
+---
+
+<BaseLayout title={data.title}>
+  <div class="mb-8">
+    <a href="/pages/experience" class="text-sm font-medium text-sky-700 underline decoration-sky-700/30 underline-offset-4 hover:text-zinc-950">
+      職務経歴へ戻る
+    </a>
+  </div>
+
+  <header class="mb-8 space-y-4 rounded border border-white bg-gradient-to-br from-white to-sky-50/60 p-5 shadow-lg shadow-zinc-900/10 ring-1 ring-zinc-200/70 sm:p-6">
+    <p class="my-0 text-sm font-semibold text-sky-700">No.{data.no}</p>
+    <h1 class="my-0">{data.title}</h1>
+    <dl class="grid gap-3 text-sm md:grid-cols-3">
+      <div class="rounded border border-zinc-200/80 bg-white/80 p-3">
+        <dt class="font-semibold text-sky-700">期間</dt>
+        <dd class="mt-1 text-zinc-800">{period}</dd>
+      </div>
+      <div class="rounded border border-zinc-200/80 bg-white/80 p-3">
+        <dt class="font-semibold text-sky-700">クライアント</dt>
+        <dd class="mt-1 whitespace-pre-line text-zinc-800">{data.client}</dd>
+      </div>
+      <div class="rounded border border-zinc-200/80 bg-white/80 p-3">
+        <dt class="font-semibold text-sky-700">所属</dt>
+        <dd class="mt-1 whitespace-pre-line text-zinc-800">{affiliation}</dd>
+      </div>
+    </dl>
+  </header>
+
+  <section class="space-y-8">
+    {
+      data.details?.map((section) => (
+        <section>
+          <h2>{section.title}</h2>
+          <dl class="grid gap-3">
+            {section.items.map((item) => (
+              <div class="rounded border border-white bg-white/95 p-4 shadow-md shadow-zinc-900/5 ring-1 ring-zinc-200/70">
+                <dt class="text-sm font-semibold text-sky-700">{item.key}</dt>
+                <dd class="mt-1 whitespace-pre-line text-zinc-800">
+                  {
+                    Array.isArray(item.value) ? (
+                      item.value.map((value) => `- ${value}`).join('\n')
+                    ) : (
+                      item.value
+                    )
+                  }
+                </dd>
+              </div>
+            ))}
+          </dl>
+        </section>
+      ))
+    }
+  </section>
+</BaseLayout>

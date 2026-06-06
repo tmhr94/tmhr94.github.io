@@ -1,0 +1,21 @@
+no: 12
+title: "シャッフルランチシステム開発"
+period: "2017/6/1~2017/7/31"
+duration: "(2ヶ月)"
+client: "DMMアカデミー一期生"
+affiliation: "契約社員"
+summary:
+  - "システムを1から一人で作成。要件定義、デザイン、詳細設計、実装、テスト、インフラ構築まで一通り行う"
+techStack: "HTML5, CSS3, JavaScript, Ruby, jQuery, Ruby on Rails, MySQL, CentOS, Nginx, さくらのVPS"
+tags:
+  - "HTML5"
+  - "CSS3"
+  - "JavaScript"
+  - "Ruby"
+  - "jQuery"
+  - "Ruby on Rails"
+  - "MySQL"
+  - "CentOS"
+  - "Nginx"
+  - "さくらのVPS"
+hasDetail: false

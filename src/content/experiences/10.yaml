@@ -1,0 +1,26 @@
+no: 10
+title: "スポーツクラブ運営者向けCMSサービス開発"
+period: "2017/2/1~2017/3/31"
+duration: "(2ヶ月)"
+client: "ベンチャー受託開発会社"
+affiliation: "フリーランス"
+summary:
+  - "スポーツ運営クラブ向けCMSサービス改修を実施。CMSはオープンソースのSHIRASAGIを使用"
+  - "デザインより機能を洗い出しAPIの詳細設計&実装&テストを行う"
+  - "デザインよりフロントエンドの詳細設計&実装&テストを行う"
+techStack: "HTML5, CSS3, JavaScript, Ruby, PHP, jQuery, AngularJS, Ruby on Rails, Laravel, MySQL, Ubuntu, AWS, Docker"
+tags:
+  - "HTML5"
+  - "CSS3"
+  - "JavaScript"
+  - "Ruby"
+  - "PHP"
+  - "jQuery"
+  - "AngularJS"
+  - "Ruby on Rails"
+  - "Laravel"
+  - "MySQL"
+  - "Ubuntu"
+  - "AWS"
+  - "Docker"
+hasDetail: false

@@ -1,0 +1,25 @@
+no: 3
+title: "RFIDを用いた工場工程管理システム構築, 保守"
+period: "2015/9/1~2016/9/28"
+duration: "(13ヶ月)"
+client: "アクセルユニバース株式会社"
+affiliation: "正社員"
+summary:
+  - "基本設計を元に詳細設計作成/実装/テストを実施"
+  - "API開発チームのリーダーとして作業を行う"
+  - "お客様先に出向きオンプレサーバーへデプロイ作業を実施"
+techStack: "C#, JAVA, Ruby, HTML5, CSS3, JavaScript, PostgreSQL9.4, RHEL, Nginx, Unicorn, Ruby on Rails4, jQuery"
+tags:
+  - "C#"
+  - "JAVA"
+  - "Ruby"
+  - "HTML5"
+  - "CSS3"
+  - "JavaScript"
+  - "PostgreSQL9.4"
+  - "RHEL"
+  - "Nginx"
+  - "Unicorn"
+  - "Ruby on Rails4"
+  - "jQuery"
+hasDetail: false

@@ -1,0 +1,23 @@
+no: 20
+title: "SaaS型勤怠管理システム開発"
+period: "2020/5/1~2020/9/30"
+duration: "(5ヶ月)"
+client: "ウェディングサイト運営企業"
+affiliation: "フリーランス"
+summary:
+  - "要件より詳細設計を作成&開発からAPI設計書作成、テストコード作成を行う"
+  - "バックエンド側全ての開発を担当"
+techStack: "HTML5/CSS3, JavaScript, Ruby, Ruby on Rails, MySQL, Amazon, Linux, Docker, AWS, Swagger, Redis"
+tags:
+  - "HTML5/CSS3"
+  - "JavaScript"
+  - "Ruby"
+  - "Ruby on Rails"
+  - "MySQL"
+  - "Amazon"
+  - "Linux"
+  - "Docker"
+  - "AWS"
+  - "Swagger"
+  - "Redis"
+hasDetail: false

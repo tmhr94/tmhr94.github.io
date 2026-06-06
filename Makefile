@@ -1,5 +1,5 @@
 setup:
-	bundle install
+	npm install
 
 serve:
-	bundle exec jekyll serve --trace --watch --verbose --port 3000
+	npm run dev

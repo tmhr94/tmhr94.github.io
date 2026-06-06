@@ -1,0 +1,17 @@
+no: 4
+title: "基幹システムのサーバー運用, 保守"
+period: "2015/10/1~2016/10/28"
+duration: "(13ヶ月)"
+client: "アクセルユニバース株式会社"
+affiliation: "正社員"
+summary:
+  - "IIJ社のクラウドに配置されているRHEL5系のサーバーの運用, 保守"
+techStack: "shellスクリプト, MySQL, RHEL6.7, Asteria, crontab,\nApache2.2\n"
+tags:
+  - "shellスクリプト"
+  - "MySQL"
+  - "RHEL6.7"
+  - "Asteria"
+  - "crontab"
+  - "Apache2.2"
+hasDetail: false

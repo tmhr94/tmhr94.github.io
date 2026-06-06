@@ -1,0 +1,20 @@
+no: 18
+title: "インバスケット研修システム機能改修"
+period: "2019/5/1~2019/7/31"
+duration: "(3ヶ月)"
+client: "デロイト トーマツウェブサービス株式会社\n(旧: MMM Co., Ltd.)\n"
+affiliation: "正社員"
+summary:
+  - "お客様より用件をヒアリング"
+  - "用件より簡易デザインを作成し詳細設計&実装&テスト&デプロイまで行う"
+techStack: "HTML5/CSS3, JavaScript, Ruby, Ruby on Rails, MySQL, Ubuntu, Docker, AWS"
+tags:
+  - "HTML5/CSS3"
+  - "JavaScript"
+  - "Ruby"
+  - "Ruby on Rails"
+  - "MySQL"
+  - "Ubuntu"
+  - "Docker"
+  - "AWS"
+hasDetail: false

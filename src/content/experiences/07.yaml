@@ -1,0 +1,23 @@
+no: 7
+title: "お問い合わせフォーム自動作成システム構築- 保守"
+period: "2016/7/1~2016/10/28"
+duration: "(4ヶ月)"
+client: "アクセルユニバース株式会社"
+affiliation: "正社員"
+summary:
+  - "toC向けにお問い合わせフォームを自動生成できるシステムを構築"
+  - "案件の技術リーダーとして稼働"
+  - "お客様先に出向き、要件定義、デザイン作成、詳細設計、開発、テスト、リリースまで行う"
+  - "サーバーの選定/構築を実施"
+techStack: "PHP5.6, HTML5, CSS3, JavaScript, MySQL5.6, RHEL6.7, Apache2.2, CakePHP3, jQuery"
+tags:
+  - "PHP5.6"
+  - "HTML5"
+  - "CSS3"
+  - "JavaScript"
+  - "MySQL5.6"
+  - "RHEL6.7"
+  - "Apache2.2"
+  - "CakePHP3"
+  - "jQuery"
+hasDetail: false

@@ -1,0 +1,16 @@
+no: 5
+title: "スマホアプリのサーバーサイドアプリケーション配置サーバー構築, 運用"
+period: "2016/1/5~2016/3/30"
+duration: "(3ヶ月)"
+client: "アクセルユニバース株式会社"
+affiliation: "正社員"
+summary:
+  - "アプリケーション配置サーバーの構築, 運用"
+techStack: "shellスクリプト, MySQL, RHEL6.7, AWS, Zabbix2.2"
+tags:
+  - "shellスクリプト"
+  - "MySQL"
+  - "RHEL6.7"
+  - "AWS"
+  - "Zabbix2.2"
+hasDetail: false
