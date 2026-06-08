@@ -60,7 +60,7 @@ details:
       - key: "Frontend"
         value: "HTML5/CSS3, TypeScript, TailwindCSS, Dart, Flutter, Drift, Riverpod"
       - key: "Backend"
-        value: "Go, Gin, OpenAPI"
+        value: "Go, Gin"
       - key: "Infra"
         value: "Docker, ConoHa VPS, Kamal 2, GHCR, Ansible, Terraform"
       - key: "Mobile Middleware"

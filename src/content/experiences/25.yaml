@@ -9,7 +9,7 @@ summary:
   - "従業員と全て英語で会話、PMとして要件共有&開発依頼やチームビルディングを行う。"
   - "既存の複数のサイトでそれぞれ管理していたデータを一元管理するためDBのレプリケーション設定。また、画像などの参照用にリバプロ構築など対応。"
   - "既存のCakePHP4のプロジェクトにlinter/トランスパイラー導入、docker化、CI導入、Xdebugを導入など行う。"
-techStack: "HTML5/CSS3, JavaScript, TypeScript, Vue.js, Bootstrap, PHP, CakePHP4, WordPress, GitHub Actions, Docker, Docker Compose, MySQL8,, Apache"
+techStack: "HTML5/CSS3, JavaScript, TypeScript, Vue.js, Bootstrap, PHP, CakePHP4, WordPress, GitHub Actions, Docker, Docker Compose, MySQL8, Apache"
 tags:
   - "HTML5/CSS3"
   - "JavaScript"
