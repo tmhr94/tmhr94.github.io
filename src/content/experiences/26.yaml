@@ -82,7 +82,7 @@ details:
       - key: "CI/CDパイプライン整備"
         value: "GitHub Actionsを利用し、CI/CDパイプラインを整備。"
       - key: "IaC整備"
-        value: "Ansible, Terraformを利用し、コードによるインフラ管理環境を整備。"
+        value: "Ansible、Terraformを利用し、コードによるインフラ管理環境を整備。"
       - key: "PM業務"
         value:
           - "従業員と全て英語で会話、決まった仕様をもとにissueを作成し、チームメンバーとの連携を行う。"
