@@ -20,7 +20,27 @@ export async function getStaticPaths() {
 const { entry } = Astro.props;
 const data = entry.data;
 const period = [data.period, data.duration].filter(Boolean).join(' - ');
+const client = data.client.trim();
 const affiliation = (Array.isArray(data.affiliation) ? data.affiliation : [data.affiliation]).filter(Boolean).join('\n');
+const TECH_STACK_TITLE = '技術スタック';
+const URL_KEYS = ['URL', '公式URL'];
+const toValueLines = (value) => (Array.isArray(value) ? value : [value]).flatMap((line) =>
+  String(line)
+    .split('\n')
+    .map((part) => part.trim())
+    .filter(Boolean),
+);
+const toDisplayParts = (value, { tagSingleValue = false } = {}) =>
+  toValueLines(value).map((line) => {
+    const tags = line
+      .split(',')
+      .map((tag) => tag.trim())
+      .filter(Boolean);
+    const shouldShowAsTags = tags.length > 1 || (tagSingleValue && line.length <= 32);
+
+    return shouldShowAsTags ? { type: 'tags', tags } : { type: 'text', text: line };
+  });
+const isUrlItem = (key) => URL_KEYS.includes(key) || key.includes('リンク');
 ---
 
 <BaseLayout title={data.title}>
@@ -38,10 +58,14 @@ const affiliation = (Array.isArray(data.affiliation) ? data.affiliation : [data.
         <dt class="font-semibold text-sky-700">期間</dt>
         <dd class="mt-1 text-zinc-800">{period}</dd>
       </div>
-      <div class="rounded border border-zinc-200/80 bg-white/80 p-3">
-        <dt class="font-semibold text-sky-700">クライアント</dt>
-        <dd class="mt-1 whitespace-pre-line text-zinc-800">{data.client}</dd>
-      </div>
+      {
+        client && (
+          <div class="rounded border border-zinc-200/80 bg-white/80 p-3">
+            <dt class="font-semibold text-sky-700">クライアント</dt>
+            <dd class="mt-1 whitespace-pre-line text-zinc-800">{client}</dd>
+          </div>
+        )
+      }
       <div class="rounded border border-zinc-200/80 bg-white/80 p-3">
         <dt class="font-semibold text-sky-700">所属</dt>
         <dd class="mt-1 whitespace-pre-line text-zinc-800">{affiliation}</dd>
@@ -58,9 +82,33 @@ const affiliation = (Array.isArray(data.affiliation) ? data.affiliation : [data.
             {section.items.map((item) => (
               <div class="rounded border border-white bg-white/95 p-4 shadow-md shadow-zinc-900/5 ring-1 ring-zinc-200/70">
                 <dt class="text-sm font-semibold text-sky-700">{item.key}</dt>
-                <dd class="mt-1 whitespace-pre-line text-zinc-800">
+                <dd class:list={['mt-1 text-zinc-800', section.title !== TECH_STACK_TITLE && !isUrlItem(item.key) && 'whitespace-pre-line']}>
                   {
-                    Array.isArray(item.value) ? (
+                    isUrlItem(item.key) ? (
+                      <div class="grid gap-1">
+                        {toValueLines(item.value).map((url) => (
+                          <a href={url} target="_blank" rel="noreferrer" class="break-all">
+                            {url}
+                          </a>
+                        ))}
+                      </div>
+                    ) : toDisplayParts(item.value, { tagSingleValue: section.title === TECH_STACK_TITLE }).some((part) => part.type === 'tags') ? (
+                      <div class="space-y-2">
+                        {toDisplayParts(item.value, { tagSingleValue: section.title === TECH_STACK_TITLE }).map((part) =>
+                          part.type === 'tags' ? (
+                            <div class="flex flex-wrap gap-2">
+                              {part.tags.map((tag) => (
+                                <span class="rounded-full border border-zinc-200 bg-white px-2.5 py-1 text-xs font-medium text-sky-800">
+                                  {tag}
+                                </span>
+                              ))}
+                            </div>
+                          ) : (
+                            <p class="my-0 whitespace-pre-line">{part.text}</p>
+                          ),
+                        )}
+                      </div>
+                    ) : Array.isArray(item.value) ? (
                       item.value.map((value) => `- ${value}`).join('\n')
                     ) : (
                       item.value

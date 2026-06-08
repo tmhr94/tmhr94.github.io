@@ -90,13 +90,16 @@ const years = [
       </label>
       <label class="grid gap-1 text-sm font-medium text-zinc-700">
         技術
-        <select
+        <input
           class="min-h-11 rounded border border-zinc-300 bg-white px-3 text-base font-normal text-zinc-900 shadow-inner shadow-zinc-900/5 outline-none transition focus:border-sky-700 focus:ring-2 focus:ring-sky-700/20"
+          type="search"
+          list="experience-tech-options"
+          placeholder="技術を入力"
           data-experience-tag
-        >
-          <option value="">すべて</option>
-          {tags.map((tag) => <option value={tag}>{tag}</option>)}
-        </select>
+        />
+        <datalist id="experience-tech-options">
+          {tags.map((tag) => <option value={tag} />)}
+        </datalist>
       </label>
     </div>
 
@@ -138,10 +141,14 @@ const years = [
                 <dt class="text-xs font-semibold uppercase tracking-wide text-sky-700">期間</dt>
                 <dd class="text-zinc-950">{experience.formattedPeriod}</dd>
               </div>
-              <div class="grid gap-1">
-                <dt class="text-xs font-semibold uppercase tracking-wide text-sky-700">クライアント</dt>
-                <dd class="whitespace-pre-line text-zinc-950">{experience.client}</dd>
-              </div>
+              {
+                experience.client && (
+                  <div class="grid gap-1">
+                    <dt class="text-xs font-semibold uppercase tracking-wide text-sky-700">クライアント</dt>
+                    <dd class="whitespace-pre-line text-zinc-950">{experience.client}</dd>
+                  </div>
+                )
+              }
               <div class="grid gap-1">
                 <dt class="text-xs font-semibold uppercase tracking-wide text-sky-700">所属</dt>
                 <dd class="whitespace-pre-line text-zinc-950">{experience.affiliationText}</dd>
@@ -184,7 +191,7 @@ const years = [
       const query = search?.value.trim().toLowerCase() ?? '';
       const selectedYear = year?.value ?? '';
       const selectedAffiliation = affiliation?.value ?? '';
-      const selectedTag = tag?.value ?? '';
+      const selectedTag = tag?.value.trim().toLowerCase() ?? '';
       let visibleCount = 0;
 
       items.forEach((item) => {
@@ -193,7 +200,8 @@ const years = [
           !selectedYear ||
           (selectedYear === 'ongoing' ? item.dataset.ongoing === 'true' : item.dataset.startYear === selectedYear);
         const matchesAffiliation = !selectedAffiliation || item.dataset.affiliations?.split('|').includes(selectedAffiliation);
-        const matchesTag = !selectedTag || item.dataset.tags?.split('|').includes(selectedTag);
+        const itemTags = item.dataset.tags?.toLowerCase().split('|') ?? [];
+        const matchesTag = !selectedTag || itemTags.some((itemTag) => itemTag.includes(selectedTag));
         const visible = Boolean(matchesQuery && matchesYear && matchesAffiliation && matchesTag);
 
         item.classList.toggle('hidden', !visible);
@@ -207,6 +215,6 @@ const years = [
     search?.addEventListener('input', filter);
     year?.addEventListener('change', filter);
     affiliation?.addEventListener('change', filter);
-    tag?.addEventListener('change', filter);
+    tag?.addEventListener('input', filter);
   </script>
 </BaseLayout>
