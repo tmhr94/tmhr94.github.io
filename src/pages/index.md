@@ -13,7 +13,7 @@ layout: ../layouts/BaseLayout.astro
 | 職業 | Webエンジニア(2015年1月より) |
 | 職務経歴 | [こちら](/pages/experience)をご覧ください |
 | SNS | [Twitter](https://twitter.com/tmhr94), [GitHub](https://github.com/tmhr94) |
-| その他 | [ブログ](https://blog.chiyuu.co.jp/author/tmhr94/), [趣味など](/pages/about-me) |
+| その他 | [ブログ](https://chiyuu.co.jp/blog/author/tmhr94/), [趣味など](/pages/about-me) |
 
 ## Career
 
@@ -30,7 +30,7 @@ layout: ../layouts/BaseLayout.astro
 
 | プロダクト | 期間 | 概要 | 技術スタック |
 | --- | --- | --- | --- |
-| [PraLoop](https://pra-loop.com/) | 2025/06 - 2026/05 | 音楽、動画、YouTube、録音音声の練習したい箇所を繰り返し練習できるiOS/Androidアプリ | Flutter, Go and [more](https://blog.chiyuu.co.jp/2026/06/05/pra-loop-technology-stack/) |
+| [PraLoop](https://pra-loop.com/) | 2025/06 - 2026/05 | 音楽、動画、YouTube、録音音声の練習したい箇所を繰り返し練習できるiOS/Androidアプリ | Flutter, Go and [more](https://chiyuu.co.jp/blog/2026/06/05/pra-loop-technology-stack/) |
 | [CoinStats](/pages/coin-stats/) | 2017/12 - 2018/2 | 保持している暗号通貨を管理し、現在価格をリアルタイムで確認できるWebアプリケーション | Angular2, TypeScript, Ruby on Rails5 and MySQL. |
 | Holy Cow([Android](https://play.google.com/store/apps/details?id=com.kogawawork.holycow&hl=ja), [iOS](https://itunes.apple.com/jp/app/holy-cow/id1323714301?l=ja&ls=1&mt=8)) | 2017/10 - 2017/11 | 友達や家族が集まった時にできるミニパーティーゲームスマホアプリ | Angular2, Ionic, TypeScript |
 | Daily Todo([Android](https://play.google.com/store/apps/details?id=com.ionicframework.everydaytodo880856&hl=ja), [iOS](https://apps.apple.com/jp/app/daily-todo/id1296569907?l=en)) | 2017/8 - 2017/10 | 登録したTODOの状態が毎日リセットされるスマホアプリ | Angular2, Ionic, TypeScript |

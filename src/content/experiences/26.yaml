@@ -48,7 +48,7 @@ details:
       - key: "リンク"
         value:
           - "https://pra-loop.com/ja"
-          - "https://blog.chiyuu.co.jp/2026/06/05/pra-loop-technology-stack/"
+          - "https://chiyuu.co.jp/blog/2026/06/05/pra-loop-technology-stack/"
   - title: "技術スタック"
     items:
       - key: "開発手法"

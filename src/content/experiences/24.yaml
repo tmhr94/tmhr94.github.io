@@ -37,7 +37,7 @@ details:
       - key: "担当工程"
         value: "要件定義, 基本設計, 詳細設計, 実装, 単体テスト, 結合テスト, 保守・運用"
       - key: "リンク"
-        value: "https://chiyuu.co.jp/\nhttps://blog.chiyuu.co.jp/"
+        value: "https://chiyuu.co.jp/\nhttps://chiyuu.co.jp/blog/"
   - title: "技術スタック"
     items:
       - key: "開発手法"
